@@ -1,7 +1,7 @@
 pipeline {
   agent any 
   environment {
-    def imageLine = 'shanthan12345/mywebapp:latest'
+    def imageLine = 'nginx:latest'
   }
   tools {
     maven 'maven'
