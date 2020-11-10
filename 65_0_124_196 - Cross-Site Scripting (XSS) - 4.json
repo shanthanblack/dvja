@@ -1,0 +1,1399 @@
+{
+  "version" : "1.5.1",
+  "seed" : "e5e4b6990aed283488ae40892020a312",
+  "options" : {
+    "browser_cluster" : {
+      "local_storage" : {},
+      "wait_for_elements" : {},
+      "pool_size" : 6,
+      "job_timeout" : 10,
+      "worker_time_to_live" : 100,
+      "ignore_images" : false,
+      "screen_width" : 1600,
+      "screen_height" : 1200
+    },
+    "scope" : {
+      "redundant_path_patterns" : {},
+      "dom_depth_limit" : 5,
+      "exclude_file_extensions" : [
+        "[]"
+      ],
+      "exclude_path_patterns" : [],
+      "exclude_content_patterns" : [],
+      "include_path_patterns" : [],
+      "restrict_paths" : [],
+      "extend_paths" : [],
+      "url_rewrites" : {}
+    },
+    "input" : {
+      "values" : {
+        "name" : "arachni_name",
+        "user" : "arachni_user",
+        "usr" : "arachni_user",
+        "pass" : "5543!%arachni_secret",
+        "txt" : "arachni_text",
+        "num" : "132",
+        "amount" : "100",
+        "mail" : "arachni@email.gr",
+        "account" : "12",
+        "id" : "1"
+      },
+      "default_values" : {
+        "name" : "arachni_name",
+        "user" : "arachni_user",
+        "usr" : "arachni_user",
+        "pass" : "5543!%arachni_secret",
+        "txt" : "arachni_text",
+        "num" : "132",
+        "amount" : "100",
+        "mail" : "arachni@email.gr",
+        "account" : "12",
+        "id" : "1"
+      },
+      "without_defaults" : true,
+      "force" : false
+    },
+    "audit" : {
+      "parameter_values" : true,
+      "exclude_vector_patterns" : [],
+      "include_vector_patterns" : [],
+      "link_templates" : [],
+      "links" : true,
+      "forms" : true,
+      "cookies" : true,
+      "jsons" : true,
+      "xmls" : true,
+      "ui_forms" : true,
+      "ui_inputs" : true
+    },
+    "http" : {
+      "user_agent" : "Arachni/v1.5.1",
+      "request_timeout" : 10000,
+      "request_redirect_limit" : 5,
+      "request_concurrency" : 20,
+      "request_queue_size" : 100,
+      "request_headers" : {},
+      "response_max_size" : 500000,
+      "cookies" : {},
+      "authentication_type" : "auto"
+    },
+    "session" : {},
+    "datastore" : {
+      "token" : "a06b7690272f0d64e9a2ae66af497d64"
+    },
+    "checks" : [
+      "xss",
+      "xss_path",
+      "xss_tag",
+      "xss_script_context",
+      "xss_event",
+      "xss_dom",
+      "xss_dom_script_context"
+    ],
+    "platforms" : [],
+    "plugins" : {
+      "autothrottle" : {},
+      "discovery" : {},
+      "healthmap" : {},
+      "timing_attacks" : {},
+      "uniformity" : {}
+    },
+    "no_fingerprinting" : false,
+    "authorized_by" : null,
+    "url" : "http://65.0.124.196:8090/webapp/"
+  },
+  "sitemap" : {
+    "http://65.0.124.196:8090/webapp/" : 200,
+    "http://65.0.124.196:8090/.navbar-collapse" : 404,
+    "http://65.0.124.196:8090/container" : 404,
+    "http://65.0.124.196:8090/favicon.ico" : 200,
+    "http://65.0.124.196:8090/webapp/jumbotron.css" : 404,
+    "http://65.0.124.196:8090/" : 200,
+    "http://65.0.124.196:8090/tomcat.css" : 200,
+    "http://65.0.124.196:8090/docs/" : 200,
+    "http://65.0.124.196:8090/docs/config/" : 200,
+    "http://65.0.124.196:8090/examples/" : 200,
+    "http://65.0.124.196:8090/manager/status" : 401,
+    "http://65.0.124.196:8090/manager/html" : 401,
+    "http://65.0.124.196:8090/host-manager/html" : 403,
+    "http://65.0.124.196:8090/docs/setup.html" : 200,
+    "http://65.0.124.196:8090/docs/security-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/cluster-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/manager-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/appdev/" : 200,
+    "http://65.0.124.196:8090/docs/api/index.html" : 200,
+    "http://65.0.124.196:8090/docs/images/docs-stylesheet.css" : 200,
+    "http://65.0.124.196:8090/docs/index.html" : 200,
+    "http://65.0.124.196:8090/docs/RELEASE-NOTES.txt" : 200,
+    "http://65.0.124.196:8090/docs/introduction.html" : 200,
+    "http://65.0.124.196:8090/docs/deployer-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/jndi-datasource-examples-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/realm-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/changelog.html" : 200,
+    "http://65.0.124.196:8090/docs/appdev/index.html" : 200,
+    "http://65.0.124.196:8090/docs/host-manager-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/cgi-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/security-manager-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/class-loader-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/jasper-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/ssi-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/proxy-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/ssl-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/jndi-resources-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/mbeans-descriptors-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/connectors.html" : 200,
+    "http://65.0.124.196:8090/docs/apr.html" : 200,
+    "http://65.0.124.196:8090/docs/virtual-hosting-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/aio.html" : 200,
+    "http://65.0.124.196:8090/docs/extras.html" : 200,
+    "http://65.0.124.196:8090/docs/default-servlet.html" : 200,
+    "http://65.0.124.196:8090/docs/balancer-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/logging.html" : 200,
+    "http://65.0.124.196:8090/docs/monitoring.html" : 200,
+    "http://65.0.124.196:8090/docs/maven-jars.html" : 200,
+    "http://65.0.124.196:8090/docs/web-socket-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/config/index.html" : 200,
+    "http://65.0.124.196:8090/docs/servletapi/index.html" : 200,
+    "http://65.0.124.196:8090/docs/jspapi/index.html" : 200,
+    "http://65.0.124.196:8090/docs/elapi/index.html" : 200,
+    "http://65.0.124.196:8090/docs/windows-service-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/windows-auth-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/rewrite.html" : 200,
+    "http://65.0.124.196:8090/docs/jdbc-pool.html" : 200,
+    "http://65.0.124.196:8090/docs/websocketapi/index.html" : 200,
+    "http://65.0.124.196:8090/docs/jaspicapi/index.html" : 200,
+    "http://65.0.124.196:8090/docs/annotationapi/index.html" : 200,
+    "http://65.0.124.196:8090/docs/building.html" : 200,
+    "http://65.0.124.196:8090/docs/developers.html" : 200,
+    "http://65.0.124.196:8090/docs/architecture/index.html" : 200,
+    "http://65.0.124.196:8090/docs/config/server.html" : 200,
+    "http://65.0.124.196:8090/docs/config/service.html" : 200,
+    "http://65.0.124.196:8090/docs/tribes/introduction.html" : 200,
+    "http://65.0.124.196:8090/docs/config/executor.html" : 200,
+    "http://65.0.124.196:8090/docs/config/engine.html" : 200,
+    "http://65.0.124.196:8090/docs/config/cluster.html" : 200,
+    "http://65.0.124.196:8090/docs/config/cookie-processor.html" : 200,
+    "http://65.0.124.196:8090/docs/config/credentialhandler.html" : 200,
+    "http://65.0.124.196:8090/docs/config/globalresources.html" : 200,
+    "http://65.0.124.196:8090/docs/config/http2.html" : 200,
+    "http://65.0.124.196:8090/docs/config/host.html" : 200,
+    "http://65.0.124.196:8090/docs/config/ajp.html" : 200,
+    "http://65.0.124.196:8090/docs/config/context.html" : 200,
+    "http://65.0.124.196:8090/docs/config/http.html" : 200,
+    "http://65.0.124.196:8090/docs/config/sessionidgenerator.html" : 200,
+    "http://65.0.124.196:8090/docs/config/jar-scanner.html" : 200,
+    "http://65.0.124.196:8090/docs/config/jar-scan-filter.html" : 200,
+    "http://65.0.124.196:8090/docs/config/loader.html" : 200,
+    "http://65.0.124.196:8090/docs/config/manager.html" : 200,
+    "http://65.0.124.196:8090/docs/config/resources.html" : 200,
+    "http://65.0.124.196:8090/docs/config/listeners.html" : 200,
+    "http://65.0.124.196:8090/docs/config/cluster-manager.html" : 200,
+    "http://65.0.124.196:8090/docs/config/realm.html" : 200,
+    "http://65.0.124.196:8090/docs/config/valve.html" : 200,
+    "http://65.0.124.196:8090/docs/config/cluster-deployer.html" : 200,
+    "http://65.0.124.196:8090/docs/config/cluster-listener.html" : 200,
+    "http://65.0.124.196:8090/docs/config/cluster-channel.html" : 200,
+    "http://65.0.124.196:8090/docs/config/cluster-membership.html" : 200,
+    "http://65.0.124.196:8090/docs/config/cluster-sender.html" : 200,
+    "http://65.0.124.196:8090/docs/config/cluster-receiver.html" : 200,
+    "http://65.0.124.196:8090/docs/config/cluster-valve.html" : 200,
+    "http://65.0.124.196:8090/docs/config/cluster-interceptor.html" : 200,
+    "http://65.0.124.196:8090/docs/config/systemprops.html" : 200,
+    "http://65.0.124.196:8090/docs/config/filter.html" : 200,
+    "http://65.0.124.196:8090/docs/config/jaspic.html" : 200,
+    "http://65.0.124.196:8090/examples/servlets" : 302,
+    "http://65.0.124.196:8090/examples/jsp" : 302,
+    "http://65.0.124.196:8090/examples/websocket/index.xhtml" : 200,
+    "http://65.0.124.196:8090/docs/appdev/introduction.html" : 200,
+    "http://65.0.124.196:8090/docs/appdev/installation.html" : 200,
+    "http://65.0.124.196:8090/docs/appdev/deployment.html" : 200,
+    "http://65.0.124.196:8090/docs/html-manager-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/appdev/source.html" : 200,
+    "http://65.0.124.196:8090/docs/RUNNING.txt" : 200,
+    "http://65.0.124.196:8090/docs/appdev/processes.html" : 200,
+    "http://65.0.124.196:8090/docs/html-host-manager-howto.html" : 200,
+    "http://65.0.124.196:8090/docs/api/org/apache/juli/package-summary.html" : 404,
+    "http://65.0.124.196:8090/docs/appdev/sample/" : 200,
+    "http://65.0.124.196:8090/docs/mbeans-descriptors.dtd" : 200,
+    "http://65.0.124.196:8090/docs/api/org/apache/catalina/manager/JMXProxyServlet.html" : 404,
+    "http://65.0.124.196:8090/docs/architecture/overview.html" : 200,
+    "http://65.0.124.196:8090/docs/architecture/startup.html" : 200,
+    "http://65.0.124.196:8090/docs/architecture/requestProcess.html" : 200,
+    "http://65.0.124.196:8090/docs/BUILDING.txt" : 200,
+    "http://65.0.124.196:8090/docs/tribes/setup.html" : 200,
+    "http://65.0.124.196:8090/docs/api/org/apache/catalina/tribes/package-summary.html" : 404,
+    "http://65.0.124.196:8090/docs/tribes/membership.html" : 200,
+    "http://65.0.124.196:8090/docs/tribes/transport.html" : 200,
+    "http://65.0.124.196:8090/docs/tribes/interceptors.html" : 200,
+    "http://65.0.124.196:8090/docs/tribes/status.html" : 200,
+    "http://65.0.124.196:8090/docs/tribes/developers.html" : 200,
+    "http://65.0.124.196:8090/docs/tribes/faq.html" : 200,
+    "http://65.0.124.196:8090/docs/config/automatic-deployment.html" : 200,
+    "http://65.0.124.196:8090/docs/images/cors-flowchart.png" : 200,
+    "http://65.0.124.196:8090/examples/servlets/" : 200,
+    "http://65.0.124.196:8090/examples/jsp/" : 200,
+    "http://65.0.124.196:8090/examples/websocket/echo.xhtml" : 200,
+    "http://65.0.124.196:8090/examples/websocket/chat.xhtml" : 200,
+    "http://65.0.124.196:8090/examples/websocket/snake.xhtml" : 200,
+    "http://65.0.124.196:8090/docs/appdev/web.xml.txt" : 200,
+    "http://65.0.124.196:8090/docs/appdev/sample/sample.war" : 200,
+    "http://65.0.124.196:8090/docs/api/org/apache/catalina/Server.html" : 404,
+    "http://65.0.124.196:8090/examples/websocket/drawboard.xhtml" : 200,
+    "http://65.0.124.196:8090/docs/appdev/build.xml.txt" : 200,
+    "http://65.0.124.196:8090/docs/api/org/apache/catalina/Service.html" : 404,
+    "http://65.0.124.196:8090/docs/api/org/apache/catalina/Engine.html" : 404,
+    "http://65.0.124.196:8090/docs/api/org/apache/catalina/core/StandardHost.html" : 404,
+    "http://65.0.124.196:8090/docs/api/org/apache/catalina/Context.html" : 404,
+    "http://65.0.124.196:8090/docs/api/org/apache/catalina/core/StandardContext.html" : 404,
+    "http://65.0.124.196:8090/docs/architecture/startup/serverStartup.txt" : 200,
+    "http://65.0.124.196:8090/docs/api/org/apache/catalina/Host.html" : 404,
+    "http://65.0.124.196:8090/docs/architecture/startup/serverStartup.pdf" : 200,
+    "http://65.0.124.196:8090/docs/architecture/requestProcess/authentication-process.png" : 200,
+    "http://65.0.124.196:8090/docs/architecture/requestProcess/request-process.png" : 200,
+    "http://65.0.124.196:8090/examples/servlets/helloworld.html" : 200,
+    "http://65.0.124.196:8090/examples/servlets/reqinfo.html" : 200,
+    "http://65.0.124.196:8090/examples/servlets/reqheaders.html" : 200,
+    "http://65.0.124.196:8090/examples/servlets/reqparams.html" : 200,
+    "http://65.0.124.196:8090/examples/servlets/cookies.html" : 200,
+    "http://65.0.124.196:8090/examples/servlets/servlet/HelloWorldExample" : 200,
+    "http://65.0.124.196:8090/examples/servlets/servlet/RequestInfoExample" : 200,
+    "http://65.0.124.196:8090/examples/servlets/servlet/RequestHeaderExample" : 200,
+    "http://65.0.124.196:8090/examples/servlets/servlet/RequestParamExample" : 200,
+    "http://65.0.124.196:8090/examples/servlets/servlet/CookieExample" : 200,
+    "http://65.0.124.196:8090/examples/servlets/servlet/SessionExample" : 200,
+    "http://65.0.124.196:8090/examples/servlets/sessions.html" : 200,
+    "http://65.0.124.196:8090/examples/async/async3" : 200,
+    "http://65.0.124.196:8090/examples/servlets/nonblocking/bytecounter.html" : 200,
+    "http://65.0.124.196:8090/examples/servlets/nonblocking/bytecounter" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/el/basic-arithmetic.jsp" : 200,
+    "http://65.0.124.196:8090/examples/servlets/nonblocking/numberwriter" : 200,
+    "http://65.0.124.196:8090/examples/async/async0" : 200,
+    "http://65.0.124.196:8090/examples/async/async1" : 200,
+    "http://65.0.124.196:8090/examples/async/async2" : 200,
+    "http://65.0.124.196:8090/examples/async/stockticker" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/el/basic-arithmetic.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/el/basic-comparisons.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/el/basic-comparisons.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/el/implicit-objects.jsp?foo=bar" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/el/implicit-objects.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/el/functions.jsp?foo=JSP%202.0" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/el/functions.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/el/composite.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/el/composite.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/hello.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/hello.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/repeat.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/repeat.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/book.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/book.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/hello.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/hello.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/panel.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/panel.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/products.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/jspattribute/shuffle.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/products.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/jspx/basic.jspx" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/jspx/basic.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/jspx/svgexample.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/jspx/textRotate.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/jspattribute/jspattribute.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/jspattribute/jspattribute.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/jspattribute/shuffle.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/misc/dynamicattrs.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/misc/dynamicattrs.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/misc/config.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/num/numguess.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/dates/date.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/snp/snoop.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/misc/config.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/num/numguess.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/num/numguess.jsp?guess=" : 200,
+    "http://65.0.124.196:8090/examples/jsp/num/numguess.jsp?guess=1" : 200,
+    "http://65.0.124.196:8090/examples/jsp/dates/date.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/snp/snoop.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/error/error.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/error/err.jsp?submit=Submit&name=bmw328i" : 500,
+    "http://65.0.124.196:8090/examples/jsp/error/err.jsp?submit=Submit&name=integra" : 200,
+    "http://65.0.124.196:8090/examples/jsp/error/er.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/checkbox/check.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/checkbox/checkresult.jsp?fruit=melons&submit=Submit" : 200,
+    "http://65.0.124.196:8090/examples/jsp/checkbox/cresult.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/colors/colors.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/colors/colrs.jsp?color1=&color2=&action=Submit" : 200,
+    "http://65.0.124.196:8090/examples/jsp/colors/colrs.jsp?color1=1&color2=1&action=Submit" : 200,
+    "http://65.0.124.196:8090/examples/jsp/colors/colrs.jsp?color1=&color2=&action=Hint" : 200,
+    "http://65.0.124.196:8090/examples/jsp/colors/colrs.jsp?color1=1&color2=1&action=Hint" : 200,
+    "http://65.0.124.196:8090/examples/jsp/colors/clr.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/cal/login.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/cal/cal1.jsp?name=&email=&action=Submit" : 200,
+    "http://65.0.124.196:8090/examples/jsp/cal/calendar.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/include/include.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp?submit=add&item=Beavis%20%26%20Butt-head%20Video%20collection" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp?submit=add&item=Twin%20peaks%20tapes" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp?submit=add&item=NIN%20CD" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp?submit=add&item=JSP%20Book" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp?submit=add&item=Concert%20tickets" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp?submit=add&item=Love%20life" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp?submit=add&item=Switch%20blade" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp?submit=add&item=Rex,%20Rugs%20%26%20Rock%20n'%20Roll" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp?submit=add&item=X-files%20movie" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp?submit=remove&item=Beavis%20%26%20Butt-head%20Video%20collection" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp?submit=remove&item=X-files%20movie" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp?submit=remove&item=Twin%20peaks%20tapes" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp?submit=remove&item=NIN%20CD" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp?submit=remove&item=JSP%20Book" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp?submit=remove&item=Concert%20tickets" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp?submit=remove&item=Love%20life" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp?submit=remove&item=Switch%20blade" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp?submit=remove&item=Rex,%20Rugs%20%26%20Rock%20n'%20Roll" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/crt.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/include/inc.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/forward/forward.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/forward/fwd.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/plugin/plugin.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/plugin/plugin.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsptoserv/jsptoservlet.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsptoserv/jts.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/simpletag/foo.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/simpletag/foo.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/xml/xml.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/xml/xml.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/tagplugin/if.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/tagplugin/choose.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/tagplugin/if.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/tagplugin/foreach.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/tagplugin/foreach.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/tagplugin/choose.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/security/protected/index.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/security/protected/j_security_check" : 200,
+    "http://65.0.124.196:8090/WEB-INF/lib" : 404,
+    "http://65.0.124.196:8090/WEB-INF/classes" : 404,
+    "http://65.0.124.196:8090/WEB-INF/web.xml" : 404,
+    "http://65.0.124.196:8090/examples/servlets/index.html" : 200,
+    "http://65.0.124.196:8090/examples/servlets/servlet/SessionExample?dataname=foo&datavalue=bar" : 200,
+    "http://65.0.124.196:8090/examples/jsp/index.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/el/basic-arithmetic.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/el/basic-comparisons.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/el/implicit-objects.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/el/implicit-objects.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/el/ValuesTag.java.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/el/ValuesBean.java.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/hello.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/el/functions.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/el/functions.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/el/Functions.java.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/el/composite.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/HelloWorldSimpleTag.java.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/repeat.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/FindBookSimpleTag.java.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/BookBean.java.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/Functions.java.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/hello.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/helloWorld.tag.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/panel.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/RepeatSimpleTag.java.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/book.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/panel.tag.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/products.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/displayProducts.tag.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/jspx/textRotate.jspx?name=JSPX" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/jspx/textRotate.jspx.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/jspattribute/jspattribute.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/jspattribute/HelloWorldSimpleTag.java.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/jspattribute/FooBean.java.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/jspx/basic.jspx.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/jspx/textRotate.jspx" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/jspattribute/shuffle.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/jspattribute/ShuffleSimpleTag.java.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/jspattribute/TileSimpleTag.java.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/misc/dynamicattrs.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/misc/EchoAttributesTag.java.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/num/numguess.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/misc/config.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/misc/prelude.jspf.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsp2/misc/coda.jspf.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/dates/date.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/snp/snoop.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/error/err.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/colors/ColorGameBean.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/cal/cal1.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/error/err.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/checkbox/checkresult.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/checkbox/checkresult.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/checkbox/CheckTest.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/colors/colrs.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/colors/colrs.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/cal/cal1.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/cal/cal2.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/cal/TableBean.java.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/DummyCart.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/include/include.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/forward/forward.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/cal/Entries.java.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/cal/Entry.java.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp" : 200,
+    "http://65.0.124.196:8090/examples/jsp/plugin/plugin.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsptoserv/jsptoservlet.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/jsptoserv/ServletToJsp.java.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/simpletag/foo.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/xml/xml.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/tagplugin/if.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/tagplugin/choose.jsp.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/tagplugin/notes.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/tagplugin/howto.html" : 200,
+    "http://65.0.124.196:8090/examples/jsp/tagplugin/foreach.jsp.html" : 200
+  },
+  "start_datetime" : "2020-11-09 11:04:19 +0000",
+  "finish_datetime" : "2020-11-09 11:09:36 +0000",
+  "delta_time" : "00:05:17",
+  "issues" : [],
+  "plugins" : {
+    "healthmap" : {
+      "name" : "Health map",
+      "description" : "Generates a simple list of safe/unsafe URLs.",
+      "author" : "Tasos \"Zapotek\" Laskos <tasos.laskos@arachni-scanner.com>",
+      "version" : "0.1.5",
+      "results" : {
+        "map" : [
+          {
+            "without_issues" : "http://65.0.124.196:8090/"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/.navbar-collapse"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/WEB-INF/classes"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/WEB-INF/lib"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/WEB-INF/web.xml"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/container"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/BUILDING.txt"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/RELEASE-NOTES.txt"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/RUNNING.txt"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/aio.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/annotationapi/index.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/api/index.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/api/org/apache/catalina/Context.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/api/org/apache/catalina/Engine.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/api/org/apache/catalina/Host.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/api/org/apache/catalina/Server.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/api/org/apache/catalina/Service.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/api/org/apache/catalina/core/StandardContext.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/api/org/apache/catalina/core/StandardHost.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/api/org/apache/catalina/manager/JMXProxyServlet.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/api/org/apache/catalina/tribes/package-summary.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/api/org/apache/juli/package-summary.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/appdev/"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/appdev/build.xml.txt"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/appdev/deployment.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/appdev/index.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/appdev/installation.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/appdev/introduction.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/appdev/processes.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/appdev/sample/"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/appdev/sample/sample.war"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/appdev/source.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/appdev/web.xml.txt"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/apr.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/architecture/index.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/architecture/overview.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/architecture/requestProcess.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/architecture/requestProcess/authentication-process.png"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/architecture/requestProcess/request-process.png"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/architecture/startup.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/architecture/startup/serverStartup.pdf"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/architecture/startup/serverStartup.txt"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/balancer-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/building.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/cgi-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/changelog.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/class-loader-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/cluster-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/ajp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/automatic-deployment.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/cluster-channel.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/cluster-deployer.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/cluster-interceptor.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/cluster-listener.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/cluster-manager.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/cluster-membership.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/cluster-receiver.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/cluster-sender.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/cluster-valve.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/cluster.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/context.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/cookie-processor.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/credentialhandler.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/engine.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/executor.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/filter.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/globalresources.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/host.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/http.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/http2.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/index.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/jar-scan-filter.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/jar-scanner.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/jaspic.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/listeners.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/loader.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/manager.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/realm.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/resources.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/server.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/service.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/sessionidgenerator.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/systemprops.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/config/valve.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/connectors.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/default-servlet.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/deployer-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/developers.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/elapi/index.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/extras.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/host-manager-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/html-host-manager-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/html-manager-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/images/cors-flowchart.png"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/images/docs-stylesheet.css"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/index.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/introduction.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/jasper-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/jaspicapi/index.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/jdbc-pool.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/jndi-datasource-examples-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/jndi-resources-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/jspapi/index.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/logging.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/manager-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/maven-jars.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/mbeans-descriptors-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/mbeans-descriptors.dtd"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/monitoring.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/proxy-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/realm-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/rewrite.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/security-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/security-manager-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/servletapi/index.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/setup.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/ssi-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/ssl-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/tribes/developers.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/tribes/faq.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/tribes/interceptors.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/tribes/introduction.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/tribes/membership.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/tribes/setup.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/tribes/status.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/tribes/transport.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/virtual-hosting-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/web-socket-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/websocketapi/index.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/windows-auth-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/docs/windows-service-howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/async/async0"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/async/async1"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/async/async2"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/async/async3"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/async/stockticker"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/cal/Entries.java.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/cal/Entry.java.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/cal/TableBean.java.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/cal/cal1.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/cal/cal1.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/cal/cal2.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/cal/calendar.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/cal/login.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/checkbox/CheckTest.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/checkbox/check.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/checkbox/checkresult.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/checkbox/checkresult.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/checkbox/cresult.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/colors/ColorGameBean.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/colors/clr.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/colors/colors.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/colors/colrs.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/colors/colrs.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/dates/date.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/dates/date.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/dates/date.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/error/er.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/error/err.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/error/err.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/error/error.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/forward/forward.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/forward/forward.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/forward/fwd.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/include/inc.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/include/include.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/include/include.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/index.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/el/Functions.java.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/el/ValuesBean.java.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/el/ValuesTag.java.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/el/basic-arithmetic.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/el/basic-arithmetic.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/el/basic-arithmetic.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/el/basic-comparisons.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/el/basic-comparisons.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/el/basic-comparisons.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/el/composite.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/el/composite.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/el/composite.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/el/functions.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/el/functions.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/el/functions.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/el/implicit-objects.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/el/implicit-objects.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/el/implicit-objects.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/jspattribute/FooBean.java.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/jspattribute/HelloWorldSimpleTag.java.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/jspattribute/ShuffleSimpleTag.java.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/jspattribute/TileSimpleTag.java.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/jspattribute/jspattribute.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/jspattribute/jspattribute.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/jspattribute/jspattribute.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/jspattribute/shuffle.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/jspattribute/shuffle.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/jspattribute/shuffle.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/jspx/basic.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/jspx/basic.jspx"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/jspx/basic.jspx.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/jspx/svgexample.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/jspx/textRotate.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/jspx/textRotate.jspx"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/jspx/textRotate.jspx.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/misc/EchoAttributesTag.java.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/misc/coda.jspf.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/misc/config.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/misc/config.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/misc/config.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/misc/dynamicattrs.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/misc/dynamicattrs.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/misc/dynamicattrs.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/misc/prelude.jspf.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/BookBean.java.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/FindBookSimpleTag.java.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/Functions.java.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/HelloWorldSimpleTag.java.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/RepeatSimpleTag.java.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/book.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/book.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/book.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/hello.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/hello.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/hello.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/repeat.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/repeat.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/simpletag/repeat.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/displayProducts.tag.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/hello.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/hello.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/hello.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/helloWorld.tag.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/panel.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/panel.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/panel.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/panel.tag.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/products.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/products.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsp2/tagfiles/products.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsptoserv/ServletToJsp.java.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsptoserv/jsptoservlet.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsptoserv/jsptoservlet.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/jsptoserv/jts.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/num/numguess.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/num/numguess.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/num/numguess.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/plugin/plugin.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/plugin/plugin.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/plugin/plugin.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/security/protected/index.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/security/protected/j_security_check"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/sessions/DummyCart.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/sessions/carts.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/sessions/carts.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/sessions/crt.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/simpletag/foo.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/simpletag/foo.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/simpletag/foo.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/snp/snoop.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/snp/snoop.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/snp/snoop.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/tagplugin/choose.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/tagplugin/choose.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/tagplugin/choose.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/tagplugin/foreach.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/tagplugin/foreach.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/tagplugin/foreach.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/tagplugin/howto.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/tagplugin/if.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/tagplugin/if.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/tagplugin/if.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/tagplugin/notes.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/xml/xml.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/xml/xml.jsp"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/jsp/xml/xml.jsp.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/servlets"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/servlets/"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/servlets/cookies.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/servlets/helloworld.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/servlets/index.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/servlets/nonblocking/bytecounter"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/servlets/nonblocking/bytecounter.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/servlets/nonblocking/numberwriter"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/servlets/reqheaders.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/servlets/reqinfo.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/servlets/reqparams.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/servlets/servlet/CookieExample"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/servlets/servlet/HelloWorldExample"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/servlets/servlet/RequestHeaderExample"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/servlets/servlet/RequestInfoExample"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/servlets/servlet/RequestParamExample"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/servlets/servlet/SessionExample"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/servlets/sessions.html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/websocket/chat.xhtml"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/websocket/drawboard.xhtml"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/websocket/echo.xhtml"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/websocket/index.xhtml"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/examples/websocket/snake.xhtml"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/favicon.ico"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/host-manager/html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/manager/html"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/manager/status"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/tomcat.css"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/webapp/"
+          },
+          {
+            "without_issues" : "http://65.0.124.196:8090/webapp/jumbotron.css"
+          }
+        ],
+        "total" : 310,
+        "without_issues" : 310,
+        "with_issues" : 0,
+        "issue_percentage" : 0
+      }
+    }
+  }
+}
